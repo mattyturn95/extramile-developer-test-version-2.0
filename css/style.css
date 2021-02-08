@@ -81,7 +81,8 @@ nav ul li img {
 
 .landing-background {
     background-image: url(../assets/main.jpg);
-    padding-top: 300px;
+    padding-top: 250px;
+    margin-left: -20px;
     height: 800px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -94,7 +95,7 @@ nav ul li img {
     background-repeat: no-repeat;
     padding-top: 30px;
     height: 203px;       
-    width: 768px;
+    width: 100%;
     margin: auto;
     background-position: center;
 }
@@ -106,6 +107,18 @@ nav ul li img {
     color: #fff;
     font-weight: bold;
     font-size: 37pt;
+}
+.small-knives-container{
+    margin: 0 0 0 0;
+    text-align: center;
+    
+}
+
+.small-knives{
+    text-align: center;
+    margin-bottom: -50px;
+    width: 90px;
+    height: 120px;
 }
 
 /* Landing Area */
