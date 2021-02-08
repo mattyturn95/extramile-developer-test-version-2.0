@@ -81,6 +81,7 @@ nav ul li img {
 
 .landing-background {
     background-image: url(../assets/main.jpg);
+    padding-top: 300px;
     height: 800px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -88,18 +89,22 @@ nav ul li img {
     background-color: #464646;
 }
 
- .frame{
+.frame {
     background-image: url(../assets/frame.png);
     background-repeat: no-repeat;
-    height: 203px;
-    padding: 400px 0 0 0;
+    height: 203px;       
+    width: 768px;
     margin: auto;
-    width: 70%;
     background-position: center;
-    
-    
 }
 
+.header-text {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Slab', serif;
+    color: #fff;
+    font-size: 37pt;
+}
 
 /* Landing Area */
 
@@ -124,18 +129,25 @@ nav ul li img {
     nav ul li img {
         display: none;
     }
-    .frame{
+    .frame {
         background-image: url(../assets/frame.png);
         background-repeat: no-repeat;
-        background-size: contain;        
+        background-size: contain;
         height: 203px;
         padding: 400px 0 0 0;
         margin: auto;
         width: 100%;
-        background-position: center;       
-        
+        background-position: center;
     }
-    
+    .landing-background {
+        background-image: url(../assets/main.jpg);
+        padding-top: 300px;
+        height: 600px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #464646;
+    }
 }
 
 @media all and (min-width: 768px) {
@@ -163,8 +175,6 @@ nav ul li img {
     .mobile-logo {
         display: none;
     }
-    
-    
 }
 
 @media all and (min-width: 992px) {
