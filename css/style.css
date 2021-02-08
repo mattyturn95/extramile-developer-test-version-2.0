@@ -167,6 +167,12 @@ nav ul li img {
         font-weight: bold;
         font-size: 20pt;
     }
+    .small-knives{
+        text-align: center;
+        margin-bottom: -80px;
+        width: 40px;
+        height: 80px;
+    }
 }
 
 @media all and (min-width: 768px) {
