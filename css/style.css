@@ -1,5 +1,6 @@
 /* custom styles here */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
 /* Navigation */
 
@@ -253,15 +254,50 @@ nav ul li img {
     font-weight: bold;
 }
 
-.blackboard-text{
+.blackboard-text {
     margin: auto;
-
+    margin-top: 70px;
     color: #fff;
     text-align: center;
     line-height: 40px;
     font-size: 20pt;
     font-family: 'Josefin Slab', serif;
     width: 80%;
+}
+
+.cheeses-table {
+    justify-content: space-around;
+    display: flex;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    height: 400px;
+    border: 6px solid rgba(255, 255, 255, 0.644);
+}
+
+.cheeses-list-left {
+    margin-top: 40px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 18pt;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+
+.cheese-list-right {
+    margin-top: 40px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 18pt;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+
+.vertical_dotted_line {
+    border-left: 4px dotted #fff;
+    height: 80%;
+    margin-top: 40px;   
 }
 
 /* media queries */
@@ -328,11 +364,35 @@ nav ul li img {
         font-size: 15pt;
         padding-top: 8%;
     }
-    .blackboard-text{        
+    .blackboard-text {
         font-size: 14pt;
         line-height: normal;
         margin-top: 30px;
-        
+    }
+    .cheeses-table {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        height: 500px;
+        border: 3px solid rgba(255, 255, 255, 0.74);
+    }
+    .cheeses-list-left {
+        margin-top: 40px;
+        line-height: 30px;
+        color: #fff;
+        font-size: 10pt;
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
+    }
+    
+    .cheese-list-right {
+        margin-top: 40px;
+        line-height: 30px;
+        color: #fff;
+        font-size: 10pt;
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
     }
 }
 
