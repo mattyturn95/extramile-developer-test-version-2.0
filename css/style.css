@@ -164,11 +164,13 @@ nav ul li img {
     padding-top: 70px;
     font-family: 'Josefin Slab', serif;   
     color: #fff;
+    line-height: 2rem;
     font-size: 20pt;
 }
 .twitter-container{
     text-align: center;
     width: 100%;
+    
 }
 .twitter-img{
     margin-top: 150px;    
@@ -178,8 +180,7 @@ nav ul li img {
 
 .twitter-quote-container {
     background-color: rgba(233, 206, 77, 0.7);
-    position: absolute;
-    margin-top: 100px;
+    position: absolute;    
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -278,8 +279,10 @@ nav ul li img {
         padding-top: 70px;
         font-family: 'Josefin Slab', serif;   
         color: #fff;
-        font-size: 12pt;
+        font-size: 8pt;
     }
+    
+
 }
 
 @media all and (min-width: 768px) {
