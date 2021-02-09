@@ -378,28 +378,16 @@ input[type=submit] {
     background-position: center center;
 }
 
-.footer-container{   
-    padding-top: 50px;        
-    display: flex;
-    justify-content: space-between;    
+.address-info{
+    padding-top: 60px;
+    margin-left: 200px;
+    color: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 16pt;
 }
 
-.address-info{
-    margin-left: 200px;
-    font-family: 'Josefin Slab', serif;
-    color: #fff;
-    font-size: 14pt;
-}
-.bidvest-logo{
-    margin-right: 200px;
-    color: #fff;
-    font-family: 'Josefin Slab', serif;
-    font-size: 14pt;
-}
-.bidvestpng{
-    display: flex;
-    justify-content: flex-end;
-}
+
+
 
 
 
@@ -408,6 +396,14 @@ input[type=submit] {
 /* media queries */
 
 @media all and (max-width: 480px) {
+    .address-info{
+        padding-top: 60px;
+        margin-left: 20px;
+        padding-bottom: -60px;
+        color: #fff;
+        font-family: 'Josefin Slab', serif;
+        font-size: 8pt;
+    }
     .logo {
         display: none;
     }
