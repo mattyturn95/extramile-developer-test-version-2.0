@@ -94,7 +94,7 @@ nav ul li img {
     background-image: url(../assets/frame-desktop.png);
     background-repeat: no-repeat;
     padding-top: 30px;
-    height: 300px;       
+    height: 300px;
     width: 100%;
     margin: auto;
     background-position: center;
@@ -102,26 +102,25 @@ nav ul li img {
 
 .header-text {
     margin-top: 60px;
-    
     font-family: 'Josefin Slab', serif;
     color: #fff;
     font-weight: bold;
     font-size: 50pt;
 }
-.small-knives-container{
+
+.small-knives-container {
     margin: 0 0 0 0;
     text-align: center;
-    
 }
 
-.small-knives{
+.small-knives {
     text-align: center;
     margin-bottom: -50px;
     width: 100px;
     height: 120px;
 }
 
-.scroll-down{
+.scroll-down {
     font-family: 'Josefin Slab', serif;
     color: #fff;
     font-weight: bold;
@@ -129,63 +128,66 @@ nav ul li img {
     text-align: center;
     margin-top: 150px;
 }
-.arrow-icon{
+
+.arrow-icon {
     text-align: center;
     margin-top: 20px;
     height: 80px
 }
-.arrow-icon-container{
+
+.arrow-icon-container {
     text-align: center;
 }
 
 /* ABOUT US SECTION */
 
-.yellow-container{
+.yellow-container {
     background-image: url(../assets/yelllow.png);
     height: 800px;
     width: 100%;
 }
 
-.about-text-container{
+.about-text-container {
     text-align: center;
-    margin: auto;    
+    margin: auto;
     background-repeat: no-repeat;
     width: 90%;
-    height: 291px;
+    height: 400px;
 }
-.about-header{
+
+.about-header {
     padding-top: 70px;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
     color: #fff;
     font-size: 36pt;
 }
-.about-text{
+
+.about-text {
     padding-top: 70px;
-    font-family: 'Josefin Slab', serif;   
+    font-family: 'Josefin Slab', serif;
     color: #fff;
-    line-height: 2rem;
     font-size: 20pt;
 }
-.twitter-container{
+
+.twitter-container {
     text-align: center;
     width: 100%;
-    
 }
-.twitter-img{
-    margin-top: 150px;    
+
+.twitter-img {
+    margin-top: 150px;
     background-repeat: no-repeat;
     height: 100px;
 }
 
 .twitter-quote-container {
     background-color: rgba(233, 206, 77, 0.7);
-    position: absolute;    
+    position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 100%;
-    
 }
 
 .twitter-user {
@@ -219,10 +221,28 @@ nav ul li img {
     padding-left: 10px;
 }
 
+/* Image Section */
 
+.image-background {
+    min-height: 100%;
+    height: 1000px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    background-image: url(../assets/image3.jpg);
+}
 
+/* Blacboard Section */
 
-/* Landing Area */
+.cheeseboard-header{
+    background-image: url(../assets/blackboard.jpg);
+    min-height: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center center;
+}
 
 /* media queries */
 
@@ -248,13 +268,13 @@ nav ul li img {
     .frame {
         background-image: url(../assets/frame.png);
         background-repeat: no-repeat;
-        background-size: contain;  
+        background-size: contain;
         margin: auto;
         width: 100%;
         background-position: center;
     }
     .landing-background {
-        background-image: url(../assets/main.jpg);        
+        background-image: url(../assets/main.jpg);
         height: 800px;
         background-position: center center;
         background-repeat: no-repeat;
@@ -262,27 +282,24 @@ nav ul li img {
         background-color: #464646;
     }
     .header-text {
-        padding-top: 60px;    
+        padding-top: 60px;
         font-family: 'Josefin Slab', serif;
         color: #fff;
         font-weight: bold;
         font-size: 20pt;
     }
-    .small-knives{
+    .small-knives {
         text-align: center;
         margin-bottom: -130px;
         width: 40px;
         height: 80px;
     }
-    
-    .about-text{
+    .about-text {
         padding-top: 70px;
-        font-family: 'Josefin Slab', serif;   
+        font-family: 'Josefin Slab', serif;
         color: #fff;
         font-size: 8pt;
     }
-    
-
 }
 
 @media all and (min-width: 768px) {
