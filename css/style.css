@@ -358,12 +358,7 @@ input[type=submit] {
 
 .right {
     width: 100%;
-    
 }
-
-/* When moving the mouse over the submit button, add a darker green color */
-
-/* Add a background color and some padding around the form */
 
 .container {
     text-align: center;
@@ -372,6 +367,43 @@ input[type=submit] {
     border-radius: 5px;
     padding: 20px;
 }
+
+/* Footer section */
+
+.footer-bgi {
+    background-image: url(../assets/footer.png);
+    min-height: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-container{   
+    padding-top: 50px;        
+    display: flex;
+    justify-content: space-between;    
+}
+
+.address-info{
+    margin-left: 200px;
+    font-family: 'Josefin Slab', serif;
+    color: #fff;
+    font-size: 14pt;
+}
+.bidvest-logo{
+    margin-right: 200px;
+    color: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 14pt;
+}
+.bidvestpng{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
 
 /* media queries */
 
@@ -473,6 +505,8 @@ input[type=submit] {
     .contact-info {
         font-size: 12pt;
     }
+    
+    
 }
 
 @media all and (min-width: 768px) {
