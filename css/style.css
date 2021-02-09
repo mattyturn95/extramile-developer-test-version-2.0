@@ -297,12 +297,12 @@ nav ul li img {
 .vertical_dotted_line {
     border-left: 4px dotted #fff;
     height: 80%;
-    margin-top: 40px;   
+    margin-top: 40px;
 }
 
 /* contact-section */
 
-.contact-background{
+.contact-background {
     background-image: url(../assets/contact-background.png);
     min-height: 100%;
     height: 1000px;
@@ -310,11 +310,20 @@ nav ul li img {
     background-position: center center;
 }
 
-.contact-info{
+.contact-text {
+    margin-top: -30px;
+    padding-top: 60px;
     text-align: center;
+    font-size: 40pt;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
 }
-.contact-text{
+
+.contact-info {
+    margin-top: 30px;
     text-align: center;
+    font-size: 18pt;
+    font-family: 'Josefin Slab', serif;
 }
 
 /* media queries */
@@ -402,7 +411,6 @@ nav ul li img {
         text-align: center;
         font-family: 'Josefin Slab', serif;
     }
-    
     .cheese-list-right {
         margin-top: 40px;
         line-height: 30px;
@@ -410,6 +418,13 @@ nav ul li img {
         font-size: 10pt;
         text-align: center;
         font-family: 'Josefin Slab', serif;
+    }
+    .contact-text {
+        margin-top: -130px;
+        font-size: 20pt;
+    }
+    .contact-info {
+        font-size: 12pt;
     }
 }
 
